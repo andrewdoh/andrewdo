@@ -1,0 +1,21 @@
+name:                andrewdo
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/dohandrew/andrewdo#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Andrew Do
+maintainer:          dohandrew@protonmail.com
+copyright:           (C) 2018 Andrew Do
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable andrewdo
+  main-is:             site.hs
+  default-language:    Haskell2010
+  ghc-options:         -threaded
+  build-depends:       base >= 4.7 && < 5,
+                       hakyll
